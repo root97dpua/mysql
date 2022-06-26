@@ -11,7 +11,6 @@ name varchar(30) not null
 use railroad;
 
 insert into trains
-
 (number, name)
 values
 (rand(200), concat('train', rand(200)));
