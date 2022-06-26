@@ -14,4 +14,4 @@ insert into trains
 values
 (rand(200), concat('train', rand(200)));
 
-select number from trains;
+select * from trains;
