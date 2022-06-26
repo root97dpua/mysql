@@ -8,6 +8,7 @@ number float not null unique,
 name varchar(30) not null
 );
 
+
 use railroad;
 
 insert into trains
